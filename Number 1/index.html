@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            section{
+                display: flex;
+                justify-content: center;
+                margin-top: 150px;
+               
+            }
+            .form{
+                border: 2px solid black;
+                padding: 55px 40px;
+            }
+            .form h3{
+                text-transform: uppercase;
+                text-align: center;
+            }
+            .username{
+                padding: 20px;
+                margin-top: 20px;
+            }
+            .password{
+                padding: 10px 20px;
+               
+            }
+            .radio{
+                text-align: center;
+                margin-top: 10px;
+            }
+            .button{
+                margin-top: 20px;
+                text-align: center;
+            }
+            button{
+                all: unset;
+                padding: 8px 25px;
+                border-radius: 30px;
+                background-color: rgba(17, 17, 109, 0.548);
+            }
+            input{
+                background-color: rgba(17, 17, 109, 0.548);
+                margin-left: 10px;
+                color: white;
+                padding: 3px 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="form">
+                <h3>welcome to my world</h3>
+                <form>
+                    <div class="username">
+                        <label for="username">Username</label>
+                        <input type="text" name="" value="" id="username">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="gender" id="" value="male">Male
+                        <input type="radio" name="gender" id="" value="female">Female
+                    </div>
+                    <div class="button">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    
+    </body>
+</html>

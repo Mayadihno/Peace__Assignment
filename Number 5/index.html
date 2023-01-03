@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+           form{
+            width: 50%;
+            margin: auto;
+           }
+           .radio,.checkbox{
+            border: 1px solid black;
+            width: 400px;
+            text-align: center;
+            padding: 10px;
+           }
+           .radio h4,.checkbox h4{
+            text-transform: capitalize;
+            text-decoration: underline;
+            font-size: 18px;
+           }
+           .checkbox{
+                margin-top: 20px;
+                
+           }
+          
+          .checkbox input,label{
+           margin-top: 30px;
+          } 
+          
+          
+        </style>
+    </head>
+    <body>
+        <form >
+          <div class="radio">
+            <h4>select gender</h4>
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+          </div>
+          <div class="checkbox">
+            <h4>select choice instruments</h4>
+            <input type="checkbox" checked  name="instrument" id="" value="piano"> <label for="Piano">Piano</label> <br>
+            <input type="checkbox" name="instrument" id="" value="keyboard"> <label for="Keyboard">Keyboard</label> <br>
+            <input type="checkbox" name="instrument" id="" value="trumpet"> <label for="Trumpet">Trumpet</label>
+          </div>
+        </form>
+    
+    </body>
+</html>
