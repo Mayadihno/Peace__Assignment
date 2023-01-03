@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        li{
+            margin-left: 50px;
+        }
+        .website{
+            width: 80%;
+            margin: auto;
+            border: 2px solid black;
+        }
+        .heading{
+            border-bottom:1px solid black ;
+        }
+        .heading h1{
+            margin-left: 20px;
+            text-transform: capitalize;
+        }
+        .website p{
+            text-align: center;
+            font-size: 18px;
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            margin: 4px 20px;
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            margin-left: 50px;
+        }
+        .website a{
+            margin-left: 30px;
+            font-size: 20px;
+           
+        }
+
+        form{
+            margin: 20px ;
+            text-align: center;
+            width: 500px;
+            background-color: gray;
+            padding: 20px;
+        }
+        form .username,.password{
+            padding: 15px;
+        }
+        form input{
+            padding: 5px 10px;
+        }
+        select{
+            padding: 10px;
+        }
+        button{
+            all: unset;
+            background-color: floralwhite;
+            padding: 10px 20px;
+            margin-top: 30px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        h6{
+            font-size: 30px;
+            margin-left: 40px;
+        }
+        ul{
+            margin-left: 50px;
+        }
+       </style>
+    </head>
+    <body>
+        <ol>
+            <li>h1</li>
+            <li>p</li>
+            <li>button</li>
+            <li>form</li>
+            <li>input</li>
+            <li>label</li>
+            <li>a</li>
+            <li>image</li>
+            <li>select</li>
+            <li>list tag</li>
+        </ol>
+
+        <div class="website">
+            <div class="heading">
+                <h1>this is a heading tag</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptatibus!</p>
+            <div class="image">
+                <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+
+           <a href="">Anchor Tag</a>
+
+            <form action="">
+                <div class="username">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Username..">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="text" placeholder="Enter Password..">
+                </div>
+                <label for="">Select School</label>
+                <select name="" id="">
+                    <option value="">Choose your school</option>
+                    <option value="futa">FUTA</option>
+                    <option value="ui">UI</option>
+                    <option value="oau">OAU</option>
+                    <option value="aaua">AAUA</option>
+                </select><br>
+                <button>Submit</button>
+            </form>
+           
+
+            <h6>List of programming language</h6>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+    
+    </body>
+</html>
